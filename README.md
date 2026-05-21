@@ -1,16 +1,43 @@
-# flutter_starter_project
+# Flutter Starter Project
 
-A new Flutter project.
+A Flutter starter project with a simple counter demo app, scaffolded for cross-platform development.
+
+## Features
+
+- Counter demo with increment functionality
+- Material Design UI with blue theme
+- Cross-platform support (Android, iOS, Web, Linux, macOS, Windows)
+
+## Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (>=2.19.5 <3.0.0)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+# Install dependencies
+flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+# Run the app
+flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Run on a specific platform
+flutter run -d chrome    # Web
+flutter run -d android   # Android
+flutter run -d ios       # iOS
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Running Tests
+
+```bash
+flutter test
+```
+
+## Project Structure
+
+```
+lib/
+  main.dart       # App entry point, home page with counter
+test/
+  widget_test.dart # Widget tests for the counter
+```
