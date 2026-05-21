@@ -1,16 +1,43 @@
-# flutter_starter_project
+# Flutter Starter Project
 
-A new Flutter project.
+A Flutter starter template with multi-platform support for Android, iOS, Web, Linux, macOS, and Windows.
+
+## Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (Dart SDK >=2.19.5 <3.0.0)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+# Install dependencies
+flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+# Run the app
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Supported Platforms
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Platform | Build Command |
+|----------|--------------|
+| Android  | `flutter build apk` |
+| iOS      | `flutter build ios` |
+| Web      | `flutter build web` |
+| Linux    | `flutter build linux` |
+| macOS    | `flutter build macos` |
+| Windows  | `flutter build windows` |
+
+## Running Tests
+
+```bash
+flutter test
+```
+
+## Project Structure
+
+```
+lib/
+└── main.dart          # Application entry point
+test/
+└── widget_test.dart   # Widget tests
+```
