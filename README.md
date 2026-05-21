@@ -1,16 +1,75 @@
-# flutter_starter_project
+# Flutter Starter Project
 
-A new Flutter project.
+A Flutter starter project demonstrating fundamental concepts of Flutter application development, including stateful widgets, Material Design, and cross-platform support.
+
+## Features
+
+- Counter demo with reactive state management using `setState()`
+- Material Design UI with AppBar, floating action button, and themed components
+- Cross-platform support: Android, iOS, Web, Linux, macOS, and Windows
+
+## Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (Dart >= 2.19.5)
+- An IDE with Flutter support (VS Code, Android Studio, or IntelliJ)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+   ```bash
+   git clone <repository-url>
+   cd flutter_starter_project
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Install dependencies:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+
+   ```bash
+   flutter run
+   ```
+
+## Running Tests
+
+```bash
+flutter test
+```
+
+## Project Structure
+
+```
+lib/
+  main.dart          # App entry point, root widget, and home page
+test/
+  widget_test.dart   # Widget tests for counter functionality
+```
+
+## Building for Production
+
+```bash
+# Android
+flutter build apk
+
+# iOS
+flutter build ios
+
+# Web
+flutter build web
+
+# Desktop (Linux, macOS, Windows)
+flutter build linux
+flutter build macos
+flutter build windows
+```
+
+## Resources
+
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Write Your First Flutter App](https://docs.flutter.dev/get-started/codelab)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
+- [Dart Language Tour](https://dart.dev/language)
