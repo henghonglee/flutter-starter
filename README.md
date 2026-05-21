@@ -1,16 +1,55 @@
-# flutter_starter_project
+# Flutter Starter Project
 
-A new Flutter project.
+A minimal Flutter starter template demonstrating core Flutter concepts with a simple counter application. Supports Android, iOS, web, macOS, Linux, and Windows.
+
+## Features
+
+- Material Design UI with a counter demo
+- Floating Action Button interaction
+- Stateful widget with `setState` state management
+- Multi-platform support (Android, iOS, web, macOS, Linux, Windows)
+- Flutter recommended lints for code quality
+
+## Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (>=2.19.5)
+- A supported IDE (VS Code, Android Studio, or IntelliJ)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd flutter_starter_project
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Run the app:
+   ```bash
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+```
+lib/
+  main.dart          # App entry point, home page, and counter logic
+test/
+  widget_test.dart   # Widget tests for counter functionality
+```
+
+## Running Tests
+
+```bash
+flutter test
+```
+
+## Resources
+
+- [Flutter documentation](https://docs.flutter.dev/)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter cookbook](https://docs.flutter.dev/cookbook)
