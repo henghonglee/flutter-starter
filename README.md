@@ -1,16 +1,44 @@
-# flutter_starter_project
+# Flutter Starter Project
 
-A new Flutter project.
+A minimal Flutter starter application demonstrating core Flutter concepts including stateful widgets, Material Design, and multi-platform support.
+
+## Features
+
+- Counter app with increment functionality
+- Material Design 3 UI with blue primary theme
+- Multi-platform support: Android, iOS, Web, Linux, macOS, Windows
+- Widget testing setup included
+- Flutter linting rules configured
+
+## Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (>=3.18.0)
+- Dart SDK (>=2.19.5 <3.0.0)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+# Install dependencies
+flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+# Run the app
+flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Run tests
+flutter test
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+```
+lib/
+  main.dart          # Application entry point and UI
+test/
+  widget_test.dart   # Widget tests for counter functionality
+```
+
+## Resources
+
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
